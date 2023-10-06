@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	package="b4a.example"
+	android:versionCode="1"
+	android:versionName=""
+	android:installLocation="internalOnly">
+	
+	<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="33"/>
+	<supports-screens android:largeScreens="true" 
+	    android:normalScreens="true" 
+	    android:smallScreens="true" 
+	    android:anyDensity="true"/>
+	<uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+	<application
+		android:icon="@drawable/icon"
+		android:label="Planta una planta"
+		android:theme="@style/LightTheme">
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".main"
+			android:label="Planta una planta"
+			android:screenOrientation="portrait"
+			android:exported="true">
+			<intent-filter>
+			   <action android:name="android.intent.action.MAIN" />
+			   <category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+			
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".landingpage"
+			android:label="Planta una planta"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".plantas"
+			android:label="Planta una planta"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".recomendaciones"
+			android:label="Planta una planta"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".plantas2"
+			android:label="Planta una planta"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".plantas3"
+			android:label="Planta una planta"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".aloevera"
+			android:label="Planta una planta"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".bambu"
+			android:label="Planta una planta"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".cactus"
+			android:label="Planta una planta"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".coco"
+			android:label="Planta una planta"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".contenidoconsejos"
+			android:label="Planta una planta"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".desertico"
+			android:label="Planta una planta"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".fresno"
+			android:label="Planta una planta"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".ingresardatos"
+			android:label="Planta una planta"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".iniciasesion"
+			android:label="Planta una planta"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".jengibre"
+			android:label="Planta una planta"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".landing1"
+			android:label="Planta una planta"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".lavanda"
+			android:label="Planta una planta"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".mediterraneo"
+			android:label="Planta una planta"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".nuevacont"
+			android:label="Planta una planta"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".palma"
+			android:label="Planta una planta"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".perfil"
+			android:label="Planta una planta"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".recuperarcont"
+			android:label="Planta una planta"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".registro"
+			android:label="Planta una planta"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".resultadosdatos"
+			android:label="Planta una planta"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<service
+			android:name=".starter"
+			android:exported="true">
+		</service>
+		<receiver
+			android:name=".starter$starter_BR"
+			android:exported="true">
+		</receiver>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".subartico"
+			android:label="Planta una planta"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".templado"
+			android:label="Planta una planta"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".tomate"
+			android:label="Planta una planta"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".tropical"
+			android:label="Planta una planta"
+			android:screenOrientation="portrait"
+			android:exported="true">
+		</activity>
+	</application>
+</manifest>

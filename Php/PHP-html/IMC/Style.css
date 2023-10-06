@@ -1,0 +1,14 @@
+body {
+    background-color: bisque;
+}
+
+div {
+    background-color: rgb(183, 171, 196);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}

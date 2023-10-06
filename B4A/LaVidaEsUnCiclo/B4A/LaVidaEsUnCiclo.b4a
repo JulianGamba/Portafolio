@@ -1,0 +1,99 @@
+﻿Build1=Default,b4a.example
+File1=ejercicio1.bal
+File2=ejercicio2.bal
+File3=ejercicio3.bal
+File4=ejercicio4.bal
+File5=ejercicio5.bal
+File6=ejercicio6.bal
+File7=fondodepantallaflores.jpg
+File8=fondoderombos.jpg
+File9=main.bal
+FileGroup1=Default Group
+FileGroup2=Default Group
+FileGroup3=Default Group
+FileGroup4=Default Group
+FileGroup5=Default Group
+FileGroup6=Default Group
+FileGroup7=Default Group
+FileGroup8=Default Group
+FileGroup9=Default Group
+Group=Default Group
+Library1=core
+Library2=b4xpages
+ManifestCode='This code will be applied to the manifest file during compilation.~\n~'You do not need to modify it in most cases.~\n~'See this link for for more information: https://www.b4x.com/forum/showthread.php?p=78136~\n~AddManifestText(~\n~<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="33"/>~\n~<supports-screens android:largeScreens="true" ~\n~    android:normalScreens="true" ~\n~    android:smallScreens="true" ~\n~    android:anyDensity="true"/>)~\n~SetApplicationAttribute(android:icon, "@drawable/icon")~\n~SetApplicationAttribute(android:label, "$LABEL$")~\n~CreateResourceFromFile(Macro, Themes.LightTheme)~\n~'End of default text.~\n~
+Module1=|relative|..\B4XMainPage
+Module2=Ejercicio1
+Module3=Ejercicio2
+Module4=Ejercicio3
+Module5=Ejercicio4
+Module6=Ejercicio5
+Module7=Ejercicio6
+Module8=Starter
+NumberOfFiles=9
+NumberOfLibraries=2
+NumberOfModules=8
+Version=12.5
+@EndOfDesignText@
+#Region  Project Attributes 
+	#ApplicationLabel: LaVidaEsUnCiclo
+	#VersionCode: 1
+	#VersionName: 
+	'SupportedOrientations possible values: unspecified, landscape or portrait.
+	#SupportedOrientations: portrait
+	#CanInstallToExternalStorage: False
+#End Region
+
+#Region  Activity Attributes 
+	#FullScreen: False
+	#IncludeTitle: False
+#End Region
+
+'#BridgeLogger: True
+
+Sub Process_Globals
+	Public ActionBarHomeClicked As Boolean
+End Sub
+
+Sub Globals
+
+	Private Label1 As Label
+	Private Label2 As Label
+	Private Button1 As Button
+	Private Button2 As Button
+	Private Button3 As Button
+	Private Button4 As Button
+	Private Button5 As Button
+	Private Button6 As Button
+End Sub
+
+Sub Activity_Create(FirstTime As Boolean)
+	'Dim pm As B4XPagesManager
+	'pm.Initialize(Activity)
+	Activity.LoadLayout("main")
+End Sub
+
+
+Private Sub Button1_Click
+	StartActivity("ejercicio1")
+End Sub
+
+Private Sub Button2_Click
+	StartActivity("ejercicio2")
+End Sub
+
+Private Sub Button3_Click
+	StartActivity("ejercicio3")
+End Sub
+
+Private Sub Button4_Click
+	StartActivity("ejercicio4")
+End Sub
+
+Private Sub Button5_Click
+	StartActivity("ejercicio5")
+End Sub
+
+Private Sub Button6_Click
+	StartActivity("ejercicio6")
+End Sub
+'Program code should go into B4XMainPage and other pages.

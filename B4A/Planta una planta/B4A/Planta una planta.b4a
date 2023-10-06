@@ -1,0 +1,185 @@
+﻿Build1=Default,b4a.example
+File1=Aloe Vera.jpg
+File10=contenidoconsejos.bal
+File11=deserticas.bal
+File12=desertico.bal
+File13=Desertico.jpg
+File14=fresno.bal
+File15=Fresno.jpg
+File16=Hibisco.jpg
+File17=icono.png
+File18=ingresardatos.bal
+File19=iniciaSesion.bal
+File2=aloevera.bal
+File20=jengibre.bal
+File21=Jengibre.jpg
+File22=landing1.bal
+File23=landingPage.bal
+File24=lavanda.bal
+File25=Lavanda.png
+File26=logo-apps-moviles.png
+File27=main.bal
+File28=mediterraneo.bal
+File29=mediterraneo.jpg
+File3=atras.png
+File30=nombreapp.png
+File31=nuevaCont.bal
+File32=Palma datilera.jpg
+File33=palma.bal
+File34=perfil.bal
+File35=plantas.bal
+File36=plantas2.bal
+File37=plantas3.bal
+File38=platanos.jpg
+File39=recomendaciones.bal
+File4=bambu.bal
+File40=recuperarCont.bal
+File41=registro.bal
+File42=resultadosdatos.bal
+File43=siguiente.png
+File44=subartico.bal
+File45=subartico.jpg
+File46=templadas.bal
+File47=templado.bal
+File48=templado.jpg
+File49=tomate.bal
+File5=Bambú.jpg
+File50=tomates.png
+File51=tropical.bal
+File52=Tropical.jpg
+File53=tropicales.bal
+File54=user.png
+File55=user2.png
+File6=Cactus de san pedro.jpg
+File7=cactus.bal
+File8=coco.bal
+File9=coco.jpg
+FileGroup1=Default Group
+FileGroup10=Default Group
+FileGroup11=Default Group
+FileGroup12=Default Group
+FileGroup13=Default Group
+FileGroup14=Default Group
+FileGroup15=Default Group
+FileGroup16=Default Group
+FileGroup17=Default Group
+FileGroup18=Default Group
+FileGroup19=Default Group
+FileGroup2=Default Group
+FileGroup20=Default Group
+FileGroup21=Default Group
+FileGroup22=Default Group
+FileGroup23=Default Group
+FileGroup24=Default Group
+FileGroup25=Default Group
+FileGroup26=Default Group
+FileGroup27=Default Group
+FileGroup28=Default Group
+FileGroup29=Default Group
+FileGroup3=Default Group
+FileGroup30=Default Group
+FileGroup31=Default Group
+FileGroup32=Default Group
+FileGroup33=Default Group
+FileGroup34=Default Group
+FileGroup35=Default Group
+FileGroup36=Default Group
+FileGroup37=Default Group
+FileGroup38=Default Group
+FileGroup39=Default Group
+FileGroup4=Default Group
+FileGroup40=Default Group
+FileGroup41=Default Group
+FileGroup42=Default Group
+FileGroup43=Default Group
+FileGroup44=Default Group
+FileGroup45=Default Group
+FileGroup46=Default Group
+FileGroup47=Default Group
+FileGroup48=Default Group
+FileGroup49=Default Group
+FileGroup5=Default Group
+FileGroup50=Default Group
+FileGroup51=Default Group
+FileGroup52=Default Group
+FileGroup53=Default Group
+FileGroup54=Default Group
+FileGroup55=Default Group
+FileGroup6=Default Group
+FileGroup7=Default Group
+FileGroup8=Default Group
+FileGroup9=Default Group
+Group=Default Group
+Library1=core
+Library2=b4xpages
+ManifestCode='This code will be applied to the manifest file during compilation.~\n~'You do not need to modify it in most cases.~\n~'See this link for for more information: https://www.b4x.com/forum/showthread.php?p=78136~\n~AddManifestText(~\n~<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="33"/>~\n~<supports-screens android:largeScreens="true" ~\n~    android:normalScreens="true" ~\n~    android:smallScreens="true" ~\n~    android:anyDensity="true"/>)~\n~SetApplicationAttribute(android:icon, "@drawable/icon")~\n~SetApplicationAttribute(android:label, "$LABEL$")~\n~CreateResourceFromFile(Macro, Themes.LightTheme)~\n~'End of default text.~\n~
+Module1=Aloevera
+Module10=IniciaSesion
+Module11=Jengibre
+Module12=Landing1
+Module13=LandingPage
+Module14=Lavanda
+Module15=Mediterraneo
+Module16=NuevaCont
+Module17=Palma
+Module18=Perfil
+Module19=Plantas
+Module2=|relative|..\B4XMainPage
+Module20=Plantas2
+Module21=Plantas3
+Module22=Recomendaciones
+Module23=RecuperarCont
+Module24=Registro
+Module25=Resultadosdatos
+Module26=Starter
+Module27=Subartico
+Module28=Templado
+Module29=Tomate
+Module3=Bambu
+Module30=Tropical
+Module4=Cactus
+Module5=Coco
+Module6=Contenidoconsejos
+Module7=Desertico
+Module8=Fresno
+Module9=Ingresardatos
+NumberOfFiles=55
+NumberOfLibraries=2
+NumberOfModules=30
+Version=12.5
+@EndOfDesignText@
+#Region  Project Attributes 
+	#ApplicationLabel: Planta una planta
+	#VersionCode: 1
+	#VersionName: 
+	'SupportedOrientations possible values: unspecified, landscape or portrait.
+	#SupportedOrientations: portrait
+	#CanInstallToExternalStorage: False
+#End Region
+
+#Region  Activity Attributes 
+	#FullScreen: False
+	#IncludeTitle: False
+#End Region
+
+'#BridgeLogger: True
+
+Sub Process_Globals
+	Public ActionBarHomeClicked As Boolean
+End Sub
+
+Sub Globals
+
+	Private Button2 As Button
+End Sub
+
+Sub Activity_Create(FirstTime As Boolean)
+	'Dim pm As B4XPagesManager
+	'pm.Initialize(Activity)
+	Activity.LoadLayout("main")
+End Sub
+
+
+Private Sub Button2_Click
+	StartActivity("landing1")
+End Sub
